@@ -9,7 +9,17 @@
 
 // Custom SASS
 body {
-  padding-top: 20px;
+  background-color: #F2F2F2;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	padding-top: 20px;
+	background-color: #FFF;
 }
 
 .footer {
