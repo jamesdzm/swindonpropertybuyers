@@ -27,35 +27,54 @@
 
   <body>
 
+      <section id="masthead">
     <div class="container">
 
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
       <div class="masthead">
           <div style="display: flex; width: 100%;justify-content: space-between;">
-            <h3 class="text-muted">Swindon Property Buyers</h3>
-            <h3><i class="fa fa-facebook-official" aria-hidden="true"></i></h3>
+              <div class="left">
+                  <h1 class="text-muted"><strong><i class="fa fa-home fa-lg"></i> SPB_logo</strong></h1>
+              </div>
+              <div class="right">
+                    <h3>
+                        <i class="fa fa-facebook fa-lg" aria-hidden="true" style="color: #2980b9;"></i>&nbsp;
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true" style="color: #3498db;"></i>&nbsp;
+                        <i class="fa fa-linkedin fa-lg" aria-hidden="true" style="color: #2980b9;"></i>
+                    </h3>
+              </div>
           </div>
-        <nav>
-          <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">How We Work</a></li>
-            <li><a href="#">Saving You Money</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        </div>
+    </div>
+      <div class="navbar-container">
+          <div class="container">
+                <nav>
+                  <ul class="nav nav-justified">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="#">Saving You Money</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
       </div>
+        
+      </div>
+          </section>
 
       <!-- Jumbotron -->
       <div class="jumbotron">
-          <h1>DO YOU NEED A <strong>QUICK</strong> SALE?</h1>
-        <p class="lead">
-            <h2>Swindon Property Buyers are here for you</h2>
-<!--            <h4>We can buy your property directly or we have non-sale options that are tailored to your personal circumstances</h4>-->
-        <h2><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></h2>
+          <div class="jumbotron-text">
+              <h1>DO YOU NEED A <strong>QUICK</strong> SALE?</h1>
+              <p class="lead">
+              <h2>Swindon Property Buyers are here for you</h2>
+              <h1><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></h1>
+          </div>
       </div>
+      
+      <div class="container">
 
       <!-- Example row of columns -->
       <div class="row">
@@ -75,22 +94,37 @@
           <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
-        
+        <hr class="featurette-divider" />
         <div class="row">
+            <div class="col-md-12">
+                <h2><strong>ABOUT US</strong></h2>
+            </div>
+            
             <div class="col-md-8">
-                <h1>ABOUT US</h1>
+                
                 <p>
                     A small, family-run company based in the Swindon area which helps you solve your property problems. We have unrivaled experience and knowledge, and our real business is in helping real people – or knowing someone who can!</p>
                     <p>
                      Above all we are a quick-sale solution provider for Swindon and surrounding district. Swindon Property Buyers and our investors have funds available to buy your property as fast as possible, so get in touch by telephone or via the form here and we will talk through your options. 
                 </p>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <ul>
+                    <li>Emigration?</li>
+                    <li>Divorce?</li>
+                    <li>Negative equity?</li>
+                    <li>Bereavement?</li>
+                    <li>Repossession?</li>
+                    <li>Broken chain?</li>
+                    <li>Ill health?</li>
+                    <li>Financial difficulties?</li>
+                </ul>
+            </div>
         </div>
 
       <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>&copy; 2016 Swindon Property Buyers</p>
       </footer>
 
     </div> <!-- /container -->
