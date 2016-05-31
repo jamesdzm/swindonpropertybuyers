@@ -8800,12 +8800,12 @@ body {
 /* line 16, ../sass/styles.scss */
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
-/* line 20, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 .container {
   padding-top: 20px;
-  background-color: #FFF;
 }
 
 /* line 25, ../sass/styles.scss */
@@ -8816,28 +8816,38 @@ h1, h2, h3, h4 {
   border-top: 1px solid #eee;
 }
 
-/* Main marketing message and sign up button */
-/* line 33, ../sass/styles.scss */
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
+/* line 32, ../sass/styles.scss */
+.masthead > h3 {
+  font-size: 36px;
 }
 
+/* Main marketing message and sign up button */
 /* line 37, ../sass/styles.scss */
+.jumbotron {
+  margin-top: 10px;
+  text-align: center;
+  background-image: url("../images/property-jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: #FFF;
+}
+
+/* line 48, ../sass/styles.scss */
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
-/* line 44, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .nav-justified, .nav-tabs.nav-justified {
   background-color: #eee;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -8858,7 +8868,7 @@ h1, h2, h3, h4 {
   border-bottom: 1px solid #d5d5d5;
 }
 
-/* line 65, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .nav-justified > .active > a,
 .nav-justified > .active > a:hover,
 .nav-justified > .active > a:focus {
@@ -8868,36 +8878,36 @@ h1, h2, h3, h4 {
   box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 .nav-justified > li:first-child > a {
   border-radius: 5px 5px 0 0;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .nav-justified > li:last-child > a {
   border-bottom: 0;
   border-radius: 0 0 5px 5px;
 }
 
 @media (min-width: 768px) {
-  /* line 82, ../sass/styles.scss */
+  /* line 93, ../sass/styles.scss */
   .nav-justified, .nav-tabs.nav-justified {
     max-height: 52px;
   }
 
-  /* line 85, ../sass/styles.scss */
+  /* line 96, ../sass/styles.scss */
   .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-right: 1px solid #d5d5d5;
     border-left: 1px solid #fff;
   }
 
-  /* line 89, ../sass/styles.scss */
+  /* line 100, ../sass/styles.scss */
   .nav-justified > li:first-child > a {
     border-left: 0;
     border-radius: 5px 0 0 5px;
   }
 
-  /* line 93, ../sass/styles.scss */
+  /* line 104, ../sass/styles.scss */
   .nav-justified > li:last-child > a {
     border-right: 0;
     border-radius: 0 5px 5px 0;
@@ -8906,7 +8916,7 @@ h1, h2, h3, h4 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
-  /* line 102, ../sass/styles.scss */
+  /* line 113, ../sass/styles.scss */
   .masthead,
   .marketing,
   .footer {
