@@ -8829,31 +8829,49 @@ h1, h2, h3, h4 {
   background-position: center;
   overflow: hidden;
   color: #FFF;
+  margin-bottom: 0;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .jumbotron-text {
   margin: 100px auto;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
 
-/* Customize the nav-justified links to be fill the entire space of the .navbar */
 /* line 54, ../sass/styles.scss */
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 59, ../sass/styles.scss */
+.row > ul {
+  list-style-type: none;
+}
+
+/* line 62, ../sass/styles.scss */
+.ul-wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+/* line 68, ../sass/styles.scss */
 .navbar-container {
   background-color: #eeeeee;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 .nav-justified, .nav-tabs.nav-justified {
   background-color: #eee;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -8863,7 +8881,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .nav-justified > .active > a,
 .nav-justified > .active > a:hover,
 .nav-justified > .active > a:focus {
@@ -8871,23 +8889,23 @@ h1, h2, h3, h4 {
 }
 
 @media (min-width: 768px) {
-  /* line 95, ../sass/styles.scss */
+  /* line 109, ../sass/styles.scss */
   .nav-justified, .nav-tabs.nav-justified {
     max-height: 52px;
   }
 
-  /* line 98, ../sass/styles.scss */
+  /* line 112, ../sass/styles.scss */
   .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-right: 1px solid #d5d5d5;
     border-left: 1px solid #fff;
   }
 
-  /* line 102, ../sass/styles.scss */
+  /* line 116, ../sass/styles.scss */
   .nav-justified > li:first-child > a {
     border-left: 0;
   }
 
-  /* line 106, ../sass/styles.scss */
+  /* line 120, ../sass/styles.scss */
   .nav-justified > li:last-child > a {
     border-right: 0;
   }
@@ -8895,7 +8913,7 @@ h1, h2, h3, h4 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
-  /* line 115, ../sass/styles.scss */
+  /* line 129, ../sass/styles.scss */
   .masthead,
   .marketing,
   .footer {

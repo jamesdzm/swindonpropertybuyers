@@ -41,6 +41,7 @@ h1, h2, h3, h4 {
   background-position: center;
   overflow: hidden;
   color: #FFF;
+    margin-bottom: 0;
 }
 .jumbotron-text {
     margin: 100px auto;
@@ -48,6 +49,19 @@ h1, h2, h3, h4 {
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row >ul {
+    list-style-type: none;
+}
+.ul-wrapper {
+    width: 600px;
+    margin: auto;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
